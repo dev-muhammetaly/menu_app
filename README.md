@@ -1,61 +1,18 @@
-# ☕ Mia Café Menu App
+# Café Menu
 
-A digital menu display app built with Flutter for a café called **Mia** in Turkmenistan. Built as a personal practice project to explore Flutter UI design with categorized menu items, pricing, and a clean customer-facing layout.
+A Flutter café-menu project with food categories, item details and a simple cart. The menu and prices are bundled with the app.
 
-## 📸 Screenshots
+## Run locally
 
-> _Add screenshots here by dragging images into this README on GitHub_
-
-## ✨ Features
-
-- Browse categorized food and drink items
-- View item details and pricing
-- Clean, customer-friendly UI
-- Lightweight — no backend or API required
-
-## 🛠️ Tech Stack
-
-- **Flutter** — cross-platform mobile framework
-- **Dart** — programming language
-- **Hardcoded data** — static menu items
-- **Material Design** — UI components
-
-## ⚠️ Note
-
-This is a personal practice project built to explore Flutter UI design. It is not deployed or used in production.
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK installed
-
-### Setup
-
-1. Clone the repo
-```bash
-   git clone https://github.com/dev-muhammetaly/menu_app.git
-   cd menu_app
+```sh
+flutter pub get
+flutter run
 ```
 
-2. Install dependencies
-```bash
-   flutter pub get
-```
+No backend or API key is required.
 
-3. Run the app
-```bash
-   flutter run
-```
+## What it covers
 
-## 📦 Dependencies
+The project focuses on browsing a menu and updating cart quantities and totals. Cart logic is in `lib/provider/cart_provider.dart`.
 
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-```
-
-## 👨‍💻 Author
-
-**Muhammetaly Annageldiyew**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammetaly-annageldiyew-497608351)
+This is a menu and cart prototype. It does not send orders to a restaurant or process payments, and the cart is not saved between app sessions.
